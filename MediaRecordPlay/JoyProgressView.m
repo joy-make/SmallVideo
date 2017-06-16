@@ -7,6 +7,7 @@
 //
 
 #import "JoyProgressView.h"
+#import <UIView+JoyCategory.h>
 
 @implementation JoyProgressView
 

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12118" systemVersion="16C67" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12086"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="JoySwitchCell" rowHeight="63" id="KGk-i7-Jjw" customClass="JoySwitchCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="63"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="62.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CAJ-i2-s7Y">
+                        <rect key="frame" x="15" y="10" width="0.0" height="42.5"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="7ug-Jm-oTf">
+                        <rect key="frame" x="256" y="16" width="51" height="31"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="31" id="BcA-uJ-cR4"/>
+                            <constraint firstAttribute="width" constant="49" id="gva-Di-kYA"/>
+                        </constraints>
+                        <connections>
+                            <action selector="switchValueChanged:" destination="KGk-i7-Jjw" eventType="valueChanged" id="b6F-IO-1qa"/>
+                        </connections>
+                    </switch>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="7ug-Jm-oTf" firstAttribute="top" relation="greaterThanOrEqual" secondItem="H2p-sc-9uM" secondAttribute="top" constant="5" id="6VR-ng-jcm"/>
+                    <constraint firstItem="CAJ-i2-s7Y" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="W94-RS-WTW"/>
+                    <constraint firstItem="7ug-Jm-oTf" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="ZMF-bG-jrX"/>
+                    <constraint firstAttribute="trailing" secondItem="7ug-Jm-oTf" secondAttribute="trailing" constant="15" id="hpv-nt-zfX"/>
+                    <constraint firstItem="7ug-Jm-oTf" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="CAJ-i2-s7Y" secondAttribute="trailing" constant="15" id="laG-y1-Z6h"/>
+                    <constraint firstItem="CAJ-i2-s7Y" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="15" id="lp9-Af-joj"/>
+                    <constraint firstItem="CAJ-i2-s7Y" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="10" id="mw9-gA-gtY"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="mySwitch" destination="7ug-Jm-oTf" id="erK-25-lcI"/>
+                <outlet property="titleLabel" destination="CAJ-i2-s7Y" id="7tG-YM-v9i"/>
+            </connections>
+            <point key="canvasLocation" x="262" y="273.5"/>
+        </tableViewCell>
+    </objects>
+</document>

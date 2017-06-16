@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <Joy.h>
 
 @interface JoyRecordView : UIView
 @property (nonatomic,copy) VOIDBLOCK startRecordBlock;

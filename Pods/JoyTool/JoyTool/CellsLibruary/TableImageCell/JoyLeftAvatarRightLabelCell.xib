@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12118" systemVersion="16C67" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12086"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="JoyLeftAvatarRightLabelCell" id="KGk-i7-Jjw" customClass="JoyLeftAvatarRightLabelCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="71"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="287" height="70.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="be0-Ju-Jdh">
+                        <rect key="frame" x="15" y="9" width="54" height="54"/>
+                        <constraints>
+                            <constraint firstAttribute="width" secondItem="be0-Ju-Jdh" secondAttribute="height" multiplier="1:1" id="Mv6-MY-PfC"/>
+                            <constraint firstAttribute="width" constant="54" id="gAl-jC-KSX"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="设置头像" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nd8-7O-8CK">
+                        <rect key="frame" x="104" y="25" width="168" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="21" id="RYt-ZW-h0X"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="nd8-7O-8CK" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="A0b-zd-4Gx"/>
+                    <constraint firstItem="be0-Ju-Jdh" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="15" id="ND7-gq-kiE"/>
+                    <constraint firstAttribute="trailing" secondItem="nd8-7O-8CK" secondAttribute="trailing" constant="15" id="TkH-6n-qj0"/>
+                    <constraint firstAttribute="bottom" secondItem="be0-Ju-Jdh" secondAttribute="bottom" constant="8" id="XlX-dA-xgW"/>
+                    <constraint firstItem="be0-Ju-Jdh" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="9" id="den-D2-gez"/>
+                    <constraint firstItem="nd8-7O-8CK" firstAttribute="leading" secondItem="be0-Ju-Jdh" secondAttribute="trailing" constant="35" id="fh4-fh-EQA"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="headImageView" destination="be0-Ju-Jdh" id="Fme-c8-jQu"/>
+                <outlet property="titleLabel" destination="nd8-7O-8CK" id="Q43-ac-37P"/>
+            </connections>
+            <point key="canvasLocation" x="29" y="266"/>
+        </tableViewCell>
+    </objects>
+</document>

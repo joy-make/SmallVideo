@@ -35,3 +35,7 @@ MAS_CONSTRAINT(recoreView, make.edges.mas_equalTo([UIApplication sharedApplicati
 ```
 
 注意，动画、约束等部分功能使用了JoyTool pod库内容，需要的话pod 安装，不需要的话就删除响应代码
+
+
+简单写了个demo，主要还是看player的实现，view临时写了一个，你可以把回调拿到vc里去处理
+

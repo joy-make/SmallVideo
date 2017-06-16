@@ -9,6 +9,13 @@
 //typedef void (^TIMERBLOCK)(NSInteger currentValue,NSInteger totalValue);
 
 
+
+
+#import <Foundation/Foundation.h>
+#import <AVFoundation/AVFoundation.h>
+#import <Joy.h>
+typedef void (^IDBLOCK)(id obj);
+
 typedef NS_ENUM(NSInteger,ERecordResult) {
     ERecordSucess,
     ERecordLessThanMinTime,
@@ -20,9 +27,6 @@ typedef NS_ENUM(NSUInteger,EAVCaptureOutputType) {
     EAVCaptureVideoDataOutput,      //data输出
     EAVCaptureMetadataOutput        //元数据输出
 };
-
-#import <Foundation/Foundation.h>
-#import <AVFoundation/AVFoundation.h>
 
 @protocol ReCordPlayProtoCol <NSObject>
 

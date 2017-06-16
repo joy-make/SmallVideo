@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>JoyTool-JoyTool.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>JoyTool.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Masonry.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-smallVideo.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>36F5D443A1C899454F5887724C27F53D</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>3A809090BFFA23D4A70BC932CDA2F422</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>AD60115B07959A56A86E6EAE1B8B1DB9</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>D3123A45816E7653945CF9B6F1D0C35B</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>

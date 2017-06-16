@@ -13,6 +13,7 @@
 #import <CAAnimation+HCAnimation.h>
 #import "JoyProgressView.h"
 #import "JoyCoreMotion.h"
+#import <UIView+JoyCategory.h>
 
 @interface JoyRecordView ()<UIGestureRecognizerDelegate,ReCordPlayProtoCol>
 @property (nonatomic,strong)JoyMediaRecordPlay *recorder;

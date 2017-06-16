@@ -1,0 +1,731 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2F2477EC1EF3FD7B0095EA78 /* libz.1.2.8.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F2477EB1EF3FD7B0095EA78 /* libz.1.2.8.tbd */; };
+		2F2477EE1EF3FD810095EA78 /* libstdc++.6.0.9.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F2477ED1EF3FD810095EA78 /* libstdc++.6.0.9.tbd */; };
+		2F2477F01EF3FD8D0095EA78 /* libiconv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F2477EF1EF3FD8D0095EA78 /* libiconv.tbd */; };
+		2F2478091EF3FDFB0095EA78 /* LW_CameraFocus.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F2477F51EF3FDFB0095EA78 /* LW_CameraFocus.png */; };
+		2F24780A1EF3FDFB0095EA78 /* LW_PhotoLibruary.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F2477F61EF3FDFB0095EA78 /* LW_PhotoLibruary.png */; };
+		2F24780B1EF3FDFB0095EA78 /* LW_StartRecordVideo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F2477F71EF3FDFB0095EA78 /* LW_StartRecordVideo@2x.png */; };
+		2F24780C1EF3FDFB0095EA78 /* LW_StartRecordVideo@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F2477F81EF3FDFB0095EA78 /* LW_StartRecordVideo@3x.png */; };
+		2F24780D1EF3FDFB0095EA78 /* LW_SwitchCamera.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F2477F91EF3FDFB0095EA78 /* LW_SwitchCamera.png */; };
+		2F24780E1EF3FDFB0095EA78 /* LW_SwitchCamera1.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F2477FA1EF3FDFB0095EA78 /* LW_SwitchCamera1.png */; };
+		2F24780F1EF3FDFB0095EA78 /* LW_Video_Down.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F2477FB1EF3FDFB0095EA78 /* LW_Video_Down.png */; };
+		2F2478101EF3FDFB0095EA78 /* LW_Video_FlashLight.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F2477FC1EF3FDFB0095EA78 /* LW_Video_FlashLight.png */; };
+		2F2478111EF3FDFB0095EA78 /* trends_ preview_video_back@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F2477FD1EF3FDFB0095EA78 /* trends_ preview_video_back@2x.png */; };
+		2F2478121EF3FDFB0095EA78 /* trends_ preview_video_back@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F2477FE1EF3FDFB0095EA78 /* trends_ preview_video_back@3x.png */; };
+		2F2478131EF3FDFB0095EA78 /* trends_preview_video_done@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F2477FF1EF3FDFB0095EA78 /* trends_preview_video_done@2x.png */; };
+		2F2478141EF3FDFB0095EA78 /* trends_preview_video_done@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F2478001EF3FDFB0095EA78 /* trends_preview_video_done@3x.png */; };
+		2F2478151EF3FDFB0095EA78 /* JoyCoreMotion.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F2478021EF3FDFB0095EA78 /* JoyCoreMotion.m */; };
+		2F2478161EF3FDFB0095EA78 /* JoyMediaRecordPlay.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F2478041EF3FDFB0095EA78 /* JoyMediaRecordPlay.m */; };
+		2F2478171EF3FDFB0095EA78 /* JoyProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F2478061EF3FDFB0095EA78 /* JoyProgressView.m */; };
+		2F2478181EF3FDFB0095EA78 /* JoyRecordView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F2478081EF3FDFB0095EA78 /* JoyRecordView.m */; };
+		2F2945901EF3F70F00495AC0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F29458F1EF3F70F00495AC0 /* main.m */; };
+		2F2945931EF3F70F00495AC0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F2945921EF3F70F00495AC0 /* AppDelegate.m */; };
+		2F2945961EF3F70F00495AC0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F2945951EF3F70F00495AC0 /* ViewController.m */; };
+		2F2945991EF3F70F00495AC0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F2945971EF3F70F00495AC0 /* Main.storyboard */; };
+		2F29459B1EF3F70F00495AC0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F29459A1EF3F70F00495AC0 /* Assets.xcassets */; };
+		2F29459E1EF3F70F00495AC0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F29459C1EF3F70F00495AC0 /* LaunchScreen.storyboard */; };
+		2F2945A91EF3F70F00495AC0 /* smallVideoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F2945A81EF3F70F00495AC0 /* smallVideoTests.m */; };
+		2F2945B41EF3F70F00495AC0 /* smallVideoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F2945B31EF3F70F00495AC0 /* smallVideoUITests.m */; };
+		2F2945E61EF3F7F000495AC0 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F2945E51EF3F7F000495AC0 /* AVFoundation.framework */; };
+		2F2945E81EF3F7F500495AC0 /* AVKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F2945E71EF3F7F500495AC0 /* AVKit.framework */; };
+		2F2945EA1EF3F7FE00495AC0 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F2945E91EF3F7FE00495AC0 /* CoreMotion.framework */; };
+		D7C0DEFE422896E1AD4A9379 /* libPods-smallVideo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DA8D3EFF9270164B4F6AFD1 /* libPods-smallVideo.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2F2945A51EF3F70F00495AC0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2F2945831EF3F70F00495AC0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2F29458A1EF3F70F00495AC0;
+			remoteInfo = smallVideo;
+		};
+		2F2945B01EF3F70F00495AC0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2F2945831EF3F70F00495AC0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2F29458A1EF3F70F00495AC0;
+			remoteInfo = smallVideo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2F2477EB1EF3FD7B0095EA78 /* libz.1.2.8.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.1.2.8.tbd; path = usr/lib/libz.1.2.8.tbd; sourceTree = SDKROOT; };
+		2F2477ED1EF3FD810095EA78 /* libstdc++.6.0.9.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.6.0.9.tbd"; path = "usr/lib/libstdc++.6.0.9.tbd"; sourceTree = SDKROOT; };
+		2F2477EF1EF3FD8D0095EA78 /* libiconv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libiconv.tbd; path = usr/lib/libiconv.tbd; sourceTree = SDKROOT; };
+		2F2477F51EF3FDFB0095EA78 /* LW_CameraFocus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LW_CameraFocus.png; sourceTree = "<group>"; };
+		2F2477F61EF3FDFB0095EA78 /* LW_PhotoLibruary.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LW_PhotoLibruary.png; sourceTree = "<group>"; };
+		2F2477F71EF3FDFB0095EA78 /* LW_StartRecordVideo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LW_StartRecordVideo@2x.png"; sourceTree = "<group>"; };
+		2F2477F81EF3FDFB0095EA78 /* LW_StartRecordVideo@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LW_StartRecordVideo@3x.png"; sourceTree = "<group>"; };
+		2F2477F91EF3FDFB0095EA78 /* LW_SwitchCamera.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LW_SwitchCamera.png; sourceTree = "<group>"; };
+		2F2477FA1EF3FDFB0095EA78 /* LW_SwitchCamera1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LW_SwitchCamera1.png; sourceTree = "<group>"; };
+		2F2477FB1EF3FDFB0095EA78 /* LW_Video_Down.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LW_Video_Down.png; sourceTree = "<group>"; };
+		2F2477FC1EF3FDFB0095EA78 /* LW_Video_FlashLight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LW_Video_FlashLight.png; sourceTree = "<group>"; };
+		2F2477FD1EF3FDFB0095EA78 /* trends_ preview_video_back@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "trends_ preview_video_back@2x.png"; sourceTree = "<group>"; };
+		2F2477FE1EF3FDFB0095EA78 /* trends_ preview_video_back@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "trends_ preview_video_back@3x.png"; sourceTree = "<group>"; };
+		2F2477FF1EF3FDFB0095EA78 /* trends_preview_video_done@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "trends_preview_video_done@2x.png"; sourceTree = "<group>"; };
+		2F2478001EF3FDFB0095EA78 /* trends_preview_video_done@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "trends_preview_video_done@3x.png"; sourceTree = "<group>"; };
+		2F2478011EF3FDFB0095EA78 /* JoyCoreMotion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JoyCoreMotion.h; sourceTree = "<group>"; };
+		2F2478021EF3FDFB0095EA78 /* JoyCoreMotion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JoyCoreMotion.m; sourceTree = "<group>"; };
+		2F2478031EF3FDFB0095EA78 /* JoyMediaRecordPlay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JoyMediaRecordPlay.h; sourceTree = "<group>"; };
+		2F2478041EF3FDFB0095EA78 /* JoyMediaRecordPlay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JoyMediaRecordPlay.m; sourceTree = "<group>"; };
+		2F2478051EF3FDFB0095EA78 /* JoyProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JoyProgressView.h; sourceTree = "<group>"; };
+		2F2478061EF3FDFB0095EA78 /* JoyProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JoyProgressView.m; sourceTree = "<group>"; };
+		2F2478071EF3FDFB0095EA78 /* JoyRecordView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JoyRecordView.h; sourceTree = "<group>"; };
+		2F2478081EF3FDFB0095EA78 /* JoyRecordView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JoyRecordView.m; sourceTree = "<group>"; };
+		2F29458B1EF3F70F00495AC0 /* smallVideo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = smallVideo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F29458F1EF3F70F00495AC0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2F2945911EF3F70F00495AC0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2F2945921EF3F70F00495AC0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2F2945941EF3F70F00495AC0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		2F2945951EF3F70F00495AC0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2F2945981EF3F70F00495AC0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2F29459A1EF3F70F00495AC0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2F29459D1EF3F70F00495AC0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2F29459F1EF3F70F00495AC0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2F2945A41EF3F70F00495AC0 /* smallVideoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = smallVideoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F2945A81EF3F70F00495AC0 /* smallVideoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = smallVideoTests.m; sourceTree = "<group>"; };
+		2F2945AA1EF3F70F00495AC0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2F2945AF1EF3F70F00495AC0 /* smallVideoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = smallVideoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F2945B31EF3F70F00495AC0 /* smallVideoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = smallVideoUITests.m; sourceTree = "<group>"; };
+		2F2945B51EF3F70F00495AC0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2F2945E51EF3F7F000495AC0 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		2F2945E71EF3F7F500495AC0 /* AVKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVKit.framework; path = System/Library/Frameworks/AVKit.framework; sourceTree = SDKROOT; };
+		2F2945E91EF3F7FE00495AC0 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		4DA8D3EFF9270164B4F6AFD1 /* libPods-smallVideo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-smallVideo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0AC3DB19E2E3F708C8925B4 /* Pods-smallVideo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-smallVideo.release.xcconfig"; path = "Pods/Target Support Files/Pods-smallVideo/Pods-smallVideo.release.xcconfig"; sourceTree = "<group>"; };
+		D29C47659417A3D6AA8B9E94 /* Pods-smallVideo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-smallVideo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-smallVideo/Pods-smallVideo.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2F2945881EF3F70F00495AC0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F2477F01EF3FD8D0095EA78 /* libiconv.tbd in Frameworks */,
+				2F2477EE1EF3FD810095EA78 /* libstdc++.6.0.9.tbd in Frameworks */,
+				2F2477EC1EF3FD7B0095EA78 /* libz.1.2.8.tbd in Frameworks */,
+				2F2945EA1EF3F7FE00495AC0 /* CoreMotion.framework in Frameworks */,
+				2F2945E81EF3F7F500495AC0 /* AVKit.framework in Frameworks */,
+				2F2945E61EF3F7F000495AC0 /* AVFoundation.framework in Frameworks */,
+				D7C0DEFE422896E1AD4A9379 /* libPods-smallVideo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F2945A11EF3F70F00495AC0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F2945AC1EF3F70F00495AC0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2F2477F31EF3FDFB0095EA78 /* MediaRecordPlay */ = {
+			isa = PBXGroup;
+			children = (
+				2F2477F41EF3FDFB0095EA78 /* imageSources */,
+				2F2478011EF3FDFB0095EA78 /* JoyCoreMotion.h */,
+				2F2478021EF3FDFB0095EA78 /* JoyCoreMotion.m */,
+				2F2478031EF3FDFB0095EA78 /* JoyMediaRecordPlay.h */,
+				2F2478041EF3FDFB0095EA78 /* JoyMediaRecordPlay.m */,
+				2F2478051EF3FDFB0095EA78 /* JoyProgressView.h */,
+				2F2478061EF3FDFB0095EA78 /* JoyProgressView.m */,
+				2F2478071EF3FDFB0095EA78 /* JoyRecordView.h */,
+				2F2478081EF3FDFB0095EA78 /* JoyRecordView.m */,
+			);
+			path = MediaRecordPlay;
+			sourceTree = "<group>";
+		};
+		2F2477F41EF3FDFB0095EA78 /* imageSources */ = {
+			isa = PBXGroup;
+			children = (
+				2F2477F51EF3FDFB0095EA78 /* LW_CameraFocus.png */,
+				2F2477F61EF3FDFB0095EA78 /* LW_PhotoLibruary.png */,
+				2F2477F71EF3FDFB0095EA78 /* LW_StartRecordVideo@2x.png */,
+				2F2477F81EF3FDFB0095EA78 /* LW_StartRecordVideo@3x.png */,
+				2F2477F91EF3FDFB0095EA78 /* LW_SwitchCamera.png */,
+				2F2477FA1EF3FDFB0095EA78 /* LW_SwitchCamera1.png */,
+				2F2477FB1EF3FDFB0095EA78 /* LW_Video_Down.png */,
+				2F2477FC1EF3FDFB0095EA78 /* LW_Video_FlashLight.png */,
+				2F2477FD1EF3FDFB0095EA78 /* trends_ preview_video_back@2x.png */,
+				2F2477FE1EF3FDFB0095EA78 /* trends_ preview_video_back@3x.png */,
+				2F2477FF1EF3FDFB0095EA78 /* trends_preview_video_done@2x.png */,
+				2F2478001EF3FDFB0095EA78 /* trends_preview_video_done@3x.png */,
+			);
+			path = imageSources;
+			sourceTree = "<group>";
+		};
+		2F2945821EF3F70F00495AC0 = {
+			isa = PBXGroup;
+			children = (
+				2F2477F31EF3FDFB0095EA78 /* MediaRecordPlay */,
+				2F29458D1EF3F70F00495AC0 /* smallVideo */,
+				2F2945A71EF3F70F00495AC0 /* smallVideoTests */,
+				2F2945B21EF3F70F00495AC0 /* smallVideoUITests */,
+				2F29458C1EF3F70F00495AC0 /* Products */,
+				2F2945E41EF3F7EF00495AC0 /* Frameworks */,
+				A1BCCE07753D1B16173848E1 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		2F29458C1EF3F70F00495AC0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2F29458B1EF3F70F00495AC0 /* smallVideo.app */,
+				2F2945A41EF3F70F00495AC0 /* smallVideoTests.xctest */,
+				2F2945AF1EF3F70F00495AC0 /* smallVideoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2F29458D1EF3F70F00495AC0 /* smallVideo */ = {
+			isa = PBXGroup;
+			children = (
+				2F2945911EF3F70F00495AC0 /* AppDelegate.h */,
+				2F2945921EF3F70F00495AC0 /* AppDelegate.m */,
+				2F2945941EF3F70F00495AC0 /* ViewController.h */,
+				2F2945951EF3F70F00495AC0 /* ViewController.m */,
+				2F2945971EF3F70F00495AC0 /* Main.storyboard */,
+				2F29459A1EF3F70F00495AC0 /* Assets.xcassets */,
+				2F29459C1EF3F70F00495AC0 /* LaunchScreen.storyboard */,
+				2F29459F1EF3F70F00495AC0 /* Info.plist */,
+				2F29458E1EF3F70F00495AC0 /* Supporting Files */,
+			);
+			path = smallVideo;
+			sourceTree = "<group>";
+		};
+		2F29458E1EF3F70F00495AC0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2F29458F1EF3F70F00495AC0 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2F2945A71EF3F70F00495AC0 /* smallVideoTests */ = {
+			isa = PBXGroup;
+			children = (
+				2F2945A81EF3F70F00495AC0 /* smallVideoTests.m */,
+				2F2945AA1EF3F70F00495AC0 /* Info.plist */,
+			);
+			path = smallVideoTests;
+			sourceTree = "<group>";
+		};
+		2F2945B21EF3F70F00495AC0 /* smallVideoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2F2945B31EF3F70F00495AC0 /* smallVideoUITests.m */,
+				2F2945B51EF3F70F00495AC0 /* Info.plist */,
+			);
+			path = smallVideoUITests;
+			sourceTree = "<group>";
+		};
+		2F2945E41EF3F7EF00495AC0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2F2477EF1EF3FD8D0095EA78 /* libiconv.tbd */,
+				2F2477ED1EF3FD810095EA78 /* libstdc++.6.0.9.tbd */,
+				2F2477EB1EF3FD7B0095EA78 /* libz.1.2.8.tbd */,
+				2F2945E91EF3F7FE00495AC0 /* CoreMotion.framework */,
+				2F2945E71EF3F7F500495AC0 /* AVKit.framework */,
+				2F2945E51EF3F7F000495AC0 /* AVFoundation.framework */,
+				4DA8D3EFF9270164B4F6AFD1 /* libPods-smallVideo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A1BCCE07753D1B16173848E1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D29C47659417A3D6AA8B9E94 /* Pods-smallVideo.debug.xcconfig */,
+				C0AC3DB19E2E3F708C8925B4 /* Pods-smallVideo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2F29458A1EF3F70F00495AC0 /* smallVideo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2F2945B81EF3F70F00495AC0 /* Build configuration list for PBXNativeTarget "smallVideo" */;
+			buildPhases = (
+				6A8BA09B919C92B4286F8E92 /* [CP] Check Pods Manifest.lock */,
+				2F2945871EF3F70F00495AC0 /* Sources */,
+				2F2945881EF3F70F00495AC0 /* Frameworks */,
+				2F2945891EF3F70F00495AC0 /* Resources */,
+				8C4F5EC3252B454F184CF011 /* [CP] Embed Pods Frameworks */,
+				92715043AA46982DBD295BCD /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = smallVideo;
+			productName = smallVideo;
+			productReference = 2F29458B1EF3F70F00495AC0 /* smallVideo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2F2945A31EF3F70F00495AC0 /* smallVideoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2F2945BB1EF3F70F00495AC0 /* Build configuration list for PBXNativeTarget "smallVideoTests" */;
+			buildPhases = (
+				2F2945A01EF3F70F00495AC0 /* Sources */,
+				2F2945A11EF3F70F00495AC0 /* Frameworks */,
+				2F2945A21EF3F70F00495AC0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2F2945A61EF3F70F00495AC0 /* PBXTargetDependency */,
+			);
+			name = smallVideoTests;
+			productName = smallVideoTests;
+			productReference = 2F2945A41EF3F70F00495AC0 /* smallVideoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2F2945AE1EF3F70F00495AC0 /* smallVideoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2F2945BE1EF3F70F00495AC0 /* Build configuration list for PBXNativeTarget "smallVideoUITests" */;
+			buildPhases = (
+				2F2945AB1EF3F70F00495AC0 /* Sources */,
+				2F2945AC1EF3F70F00495AC0 /* Frameworks */,
+				2F2945AD1EF3F70F00495AC0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2F2945B11EF3F70F00495AC0 /* PBXTargetDependency */,
+			);
+			name = smallVideoUITests;
+			productName = smallVideoUITests;
+			productReference = 2F2945AF1EF3F70F00495AC0 /* smallVideoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2F2945831EF3F70F00495AC0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = joymake;
+				TargetAttributes = {
+					2F29458A1EF3F70F00495AC0 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = TLWP697Z5D;
+						ProvisioningStyle = Manual;
+					};
+					2F2945A31EF3F70F00495AC0 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2F29458A1EF3F70F00495AC0;
+					};
+					2F2945AE1EF3F70F00495AC0 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2F29458A1EF3F70F00495AC0;
+					};
+				};
+			};
+			buildConfigurationList = 2F2945861EF3F70F00495AC0 /* Build configuration list for PBXProject "smallVideo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2F2945821EF3F70F00495AC0;
+			productRefGroup = 2F29458C1EF3F70F00495AC0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2F29458A1EF3F70F00495AC0 /* smallVideo */,
+				2F2945A31EF3F70F00495AC0 /* smallVideoTests */,
+				2F2945AE1EF3F70F00495AC0 /* smallVideoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2F2945891EF3F70F00495AC0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F24780E1EF3FDFB0095EA78 /* LW_SwitchCamera1.png in Resources */,
+				2F2478101EF3FDFB0095EA78 /* LW_Video_FlashLight.png in Resources */,
+				2F2478141EF3FDFB0095EA78 /* trends_preview_video_done@3x.png in Resources */,
+				2F2478091EF3FDFB0095EA78 /* LW_CameraFocus.png in Resources */,
+				2F24780C1EF3FDFB0095EA78 /* LW_StartRecordVideo@3x.png in Resources */,
+				2F2478131EF3FDFB0095EA78 /* trends_preview_video_done@2x.png in Resources */,
+				2F24780A1EF3FDFB0095EA78 /* LW_PhotoLibruary.png in Resources */,
+				2F24780F1EF3FDFB0095EA78 /* LW_Video_Down.png in Resources */,
+				2F24780D1EF3FDFB0095EA78 /* LW_SwitchCamera.png in Resources */,
+				2F2478111EF3FDFB0095EA78 /* trends_ preview_video_back@2x.png in Resources */,
+				2F2478121EF3FDFB0095EA78 /* trends_ preview_video_back@3x.png in Resources */,
+				2F29459E1EF3F70F00495AC0 /* LaunchScreen.storyboard in Resources */,
+				2F29459B1EF3F70F00495AC0 /* Assets.xcassets in Resources */,
+				2F2945991EF3F70F00495AC0 /* Main.storyboard in Resources */,
+				2F24780B1EF3FDFB0095EA78 /* LW_StartRecordVideo@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F2945A21EF3F70F00495AC0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F2945AD1EF3F70F00495AC0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6A8BA09B919C92B4286F8E92 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		8C4F5EC3252B454F184CF011 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-smallVideo/Pods-smallVideo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		92715043AA46982DBD295BCD /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-smallVideo/Pods-smallVideo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2F2945871EF3F70F00495AC0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F2945961EF3F70F00495AC0 /* ViewController.m in Sources */,
+				2F2945931EF3F70F00495AC0 /* AppDelegate.m in Sources */,
+				2F2478171EF3FDFB0095EA78 /* JoyProgressView.m in Sources */,
+				2F2945901EF3F70F00495AC0 /* main.m in Sources */,
+				2F2478151EF3FDFB0095EA78 /* JoyCoreMotion.m in Sources */,
+				2F2478161EF3FDFB0095EA78 /* JoyMediaRecordPlay.m in Sources */,
+				2F2478181EF3FDFB0095EA78 /* JoyRecordView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F2945A01EF3F70F00495AC0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F2945A91EF3F70F00495AC0 /* smallVideoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F2945AB1EF3F70F00495AC0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F2945B41EF3F70F00495AC0 /* smallVideoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2F2945A61EF3F70F00495AC0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2F29458A1EF3F70F00495AC0 /* smallVideo */;
+			targetProxy = 2F2945A51EF3F70F00495AC0 /* PBXContainerItemProxy */;
+		};
+		2F2945B11EF3F70F00495AC0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2F29458A1EF3F70F00495AC0 /* smallVideo */;
+			targetProxy = 2F2945B01EF3F70F00495AC0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2F2945971EF3F70F00495AC0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2F2945981EF3F70F00495AC0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2F29459C1EF3F70F00495AC0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2F29459D1EF3F70F00495AC0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2F2945B61EF3F70F00495AC0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2F2945B71EF3F70F00495AC0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2F2945B91EF3F70F00495AC0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D29C47659417A3D6AA8B9E94 /* Pods-smallVideo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = TLWP697Z5D;
+				INFOPLIST_FILE = smallVideo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.syswinPush.TOON.enterprise.smallVideo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "c415210e-19b7-4359-bfbf-737e2faff0cf";
+				PROVISIONING_PROFILE_SPECIFIER = 6ceng.Common.DeveloperCer;
+			};
+			name = Debug;
+		};
+		2F2945BA1EF3F70F00495AC0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C0AC3DB19E2E3F708C8925B4 /* Pods-smallVideo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = TLWP697Z5D;
+				INFOPLIST_FILE = smallVideo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.syswinPush.TOON.enterprise.smallVideo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "c415210e-19b7-4359-bfbf-737e2faff0cf";
+				PROVISIONING_PROFILE_SPECIFIER = 6ceng.Common.DeveloperCer;
+			};
+			name = Release;
+		};
+		2F2945BC1EF3F70F00495AC0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = smallVideoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.syswinPush.TOON.enterprise.smallVideoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/smallVideo.app/smallVideo";
+			};
+			name = Debug;
+		};
+		2F2945BD1EF3F70F00495AC0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = smallVideoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.syswinPush.TOON.enterprise.smallVideoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/smallVideo.app/smallVideo";
+			};
+			name = Release;
+		};
+		2F2945BF1EF3F70F00495AC0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = smallVideoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.syswinPush.TOON.enterprise.smallVideoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = smallVideo;
+			};
+			name = Debug;
+		};
+		2F2945C01EF3F70F00495AC0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = smallVideoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.syswinPush.TOON.enterprise.smallVideoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = smallVideo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2F2945861EF3F70F00495AC0 /* Build configuration list for PBXProject "smallVideo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F2945B61EF3F70F00495AC0 /* Debug */,
+				2F2945B71EF3F70F00495AC0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2F2945B81EF3F70F00495AC0 /* Build configuration list for PBXNativeTarget "smallVideo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F2945B91EF3F70F00495AC0 /* Debug */,
+				2F2945BA1EF3F70F00495AC0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2F2945BB1EF3F70F00495AC0 /* Build configuration list for PBXNativeTarget "smallVideoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F2945BC1EF3F70F00495AC0 /* Debug */,
+				2F2945BD1EF3F70F00495AC0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2F2945BE1EF3F70F00495AC0 /* Build configuration list for PBXNativeTarget "smallVideoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F2945BF1EF3F70F00495AC0 /* Debug */,
+				2F2945C01EF3F70F00495AC0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2F2945831EF3F70F00495AC0 /* Project object */;
+}

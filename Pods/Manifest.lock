@@ -1,0 +1,16 @@
+PODS:
+  - JoyTool (0.0.7):
+    - Masonry
+  - Masonry (1.0.2)
+
+DEPENDENCIES:
+  - JoyTool
+  - Masonry
+
+SPEC CHECKSUMS:
+  JoyTool: f9d016d689056d476eebd8479ebd133161adbd9c
+  Masonry: 7c429b56da9d4ee0bbb3ed77a5ea710d6a5df39e
+
+PODFILE CHECKSUM: a801b1b8957e8d16ef6e5a80a9e6baa5e0f37b5e
+
+COCOAPODS: 1.2.1
