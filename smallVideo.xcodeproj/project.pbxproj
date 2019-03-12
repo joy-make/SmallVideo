@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		2F2477EC1EF3FD7B0095EA78 /* libz.1.2.8.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F2477EB1EF3FD7B0095EA78 /* libz.1.2.8.tbd */; };
-		2F2477EE1EF3FD810095EA78 /* libstdc++.6.0.9.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F2477ED1EF3FD810095EA78 /* libstdc++.6.0.9.tbd */; };
 		2F2477F01EF3FD8D0095EA78 /* libiconv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F2477EF1EF3FD8D0095EA78 /* libiconv.tbd */; };
 		2F2478091EF3FDFB0095EA78 /* LW_CameraFocus.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F2477F51EF3FDFB0095EA78 /* LW_CameraFocus.png */; };
 		2F24780A1EF3FDFB0095EA78 /* LW_PhotoLibruary.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F2477F61EF3FDFB0095EA78 /* LW_PhotoLibruary.png */; };
@@ -111,7 +110,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				2F2477F01EF3FD8D0095EA78 /* libiconv.tbd in Frameworks */,
-				2F2477EE1EF3FD810095EA78 /* libstdc++.6.0.9.tbd in Frameworks */,
 				2F2477EC1EF3FD7B0095EA78 /* libz.1.2.8.tbd in Frameworks */,
 				2F2945EA1EF3F7FE00495AC0 /* CoreMotion.framework in Frameworks */,
 				2F2945E81EF3F7F500495AC0 /* AVKit.framework in Frameworks */,
@@ -330,7 +328,7 @@
 				TargetAttributes = {
 					2F29458A1EF3F70F00495AC0 = {
 						CreatedOnToolsVersion = 8.3.3;
-						DevelopmentTeam = TLWP697Z5D;
+						DevelopmentTeam = W97PTP9593;
 						ProvisioningStyle = Manual;
 					};
 					2F2945A31EF3F70F00495AC0 = {
@@ -615,13 +613,13 @@
 			baseConfigurationReference = D29C47659417A3D6AA8B9E94 /* Pods-smallVideo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = TLWP697Z5D;
+				DEVELOPMENT_TEAM = W97PTP9593;
 				INFOPLIST_FILE = smallVideo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.syswinPush.TOON.enterprise.smallVideo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.shequbanjing.test;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "c415210e-19b7-4359-bfbf-737e2faff0cf";
-				PROVISIONING_PROFILE_SPECIFIER = 6ceng.Common.DeveloperCer;
+				PROVISIONING_PROFILE_SPECIFIER = SmartTest;
 			};
 			name = Debug;
 		};
@@ -633,7 +631,7 @@
 				DEVELOPMENT_TEAM = TLWP697Z5D;
 				INFOPLIST_FILE = smallVideo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.syswinPush.TOON.enterprise.smallVideo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.shequbanjing.test;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "c415210e-19b7-4359-bfbf-737e2faff0cf";
 				PROVISIONING_PROFILE_SPECIFIER = 6ceng.Common.DeveloperCer;
